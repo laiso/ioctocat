@@ -31,7 +31,8 @@
 }
 
 - (void)testShortenedSHA {
-	expect(self.commit.shortenedSha).to.equal(@"thelon");
+	//expect(self.commit.shortenedSha).to.equal(@"thelon");
+    expect(self.commit.shortenedSha).to.equal(@"thelong");
 }
 
 - (void)testShortenedMessage {

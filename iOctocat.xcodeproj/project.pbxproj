@@ -911,11 +911,8 @@
 		6FEDE46316E2A21C00459B5C /* RepoPublicOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FEDE43416E2A21C00459B5C /* RepoPublicOn.png */; };
 		6FEDE46416E2A21C00459B5C /* RepoPublicOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FEDE43516E2A21C00459B5C /* RepoPublicOn@2x.png */; };
 		6FEDE46516E2A21C00459B5C /* RepoPublicOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FEDE43516E2A21C00459B5C /* RepoPublicOn@2x.png */; };
-		6FEDE47816E2A29300459B5C /* IOCBlobsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDE46816E2A29300459B5C /* IOCBlobsController.m */; };
 		6FEDE47E16E2A29300459B5C /* IOCCommitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDE46C16E2A29300459B5C /* IOCCommitCell.m */; };
 		6FEDE48116E2A29300459B5C /* IOCGistCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDE46E16E2A29300459B5C /* IOCGistCell.m */; };
-		6FEDE48416E2A29300459B5C /* IOCNotificationsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDE47016E2A29300459B5C /* IOCNotificationsController.m */; };
-		6FEDE48716E2A29300459B5C /* IOCSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDE47216E2A29300459B5C /* IOCSearchController.m */; };
 		6FF09E65111589D600925109 /* FilesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF09E64111589D600925109 /* FilesCell.m */; };
 		6FF4D9551698D4B900C235A0 /* IOCRepositoriesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF4D9541698D4B900C235A0 /* IOCRepositoriesController.m */; };
 		6FF4D9561698D4B900C235A0 /* IOCRepositoriesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF4D9541698D4B900C235A0 /* IOCRepositoriesController.m */; };
@@ -1087,7 +1084,7 @@
 		6F4EB361167D22A4001C1DEA /* WatchEvent.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WatchEvent.json; sourceTree = "<group>"; };
 		6F4EB368167D268B001C1DEA /* IOCTestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOCTestHelper.h; sourceTree = "<group>"; };
 		6F4EB369167D268B001C1DEA /* IOCTestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOCTestHelper.m; sourceTree = "<group>"; };
-		6F4EB36B167D2B0E001C1DEA /* GHCommitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHCommitTests.m; sourceTree = "<group>"; };
+		6F4EB36B167D2B0E001C1DEA /* GHCommitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; path = GHCommitTests.m; sourceTree = "<group>"; };
 		6F4EB36D167D2B37001C1DEA /* GHCommitTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHCommitTests.h; sourceTree = "<group>"; };
 		6F536BB616790B8A00B5FD53 /* IOCPullRequestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOCPullRequestController.m; sourceTree = "<group>"; };
 		6F536BB916790B9300B5FD53 /* IOCPullRequestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOCPullRequestController.h; sourceTree = "<group>"; };
@@ -1471,13 +1468,10 @@
 		6FEDE43316E2A21C00459B5C /* RepoPublicForkOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RepoPublicForkOn@2x.png"; sourceTree = "<group>"; };
 		6FEDE43416E2A21C00459B5C /* RepoPublicOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RepoPublicOn.png; sourceTree = "<group>"; };
 		6FEDE43516E2A21C00459B5C /* RepoPublicOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RepoPublicOn@2x.png"; sourceTree = "<group>"; };
-		6FEDE46816E2A29300459B5C /* IOCBlobsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOCBlobsController.m; sourceTree = "<group>"; };
 		6FEDE46B16E2A29300459B5C /* IOCCommitCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOCCommitCell.h; sourceTree = "<group>"; };
 		6FEDE46C16E2A29300459B5C /* IOCCommitCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOCCommitCell.m; sourceTree = "<group>"; };
 		6FEDE46D16E2A29300459B5C /* IOCGistCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOCGistCell.h; sourceTree = "<group>"; };
 		6FEDE46E16E2A29300459B5C /* IOCGistCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOCGistCell.m; sourceTree = "<group>"; };
-		6FEDE47016E2A29300459B5C /* IOCNotificationsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOCNotificationsController.m; sourceTree = "<group>"; };
-		6FEDE47216E2A29300459B5C /* IOCSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOCSearchController.m; sourceTree = "<group>"; };
 		6FF09E63111589D600925109 /* FilesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilesCell.h; sourceTree = "<group>"; };
 		6FF09E64111589D600925109 /* FilesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilesCell.m; sourceTree = "<group>"; };
 		6FF4D9531698D47E00C235A0 /* IOCRepositoriesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOCRepositoriesController.h; sourceTree = "<group>"; };
@@ -3232,7 +3226,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n#\n# Original command:\n# \"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n#\n# Now we use this to make it work fro the command line too:\n${SRCROOT}/TestScripts/run_tests_with_ios-sim.rb";
+			shellScript = "# Run the unit tests in this test bundle.\n#\n# Original command:\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n#\n# Now we use this to make it work fro the command line too:\n#${SRCROOT}/TestScripts/run_tests_with_ios-sim.rb";
 			showEnvVarsInLog = 0;
 		};
 		6FCAA492167B52C800C816FA /* Copy Pods Resources */ = {
@@ -3514,18 +3508,15 @@
 				6F814CD616BEF767006B6D0E /* IOCResourceStatusCell.m in Sources */,
 				6FA0AE1816C014AD007308A6 /* IOCTableViewSectionHeader.m in Sources */,
 				6F308A1616CD958200BA00A1 /* IOCTextView.m in Sources */,
-				6FEDE47816E2A29300459B5C /* IOCBlobsController.m in Sources */,
 				6FEDE47E16E2A29300459B5C /* IOCCommitCell.m in Sources */,
 				6FEDE48116E2A29300459B5C /* IOCGistCell.m in Sources */,
-				6FEDE48416E2A29300459B5C /* IOCNotificationsController.m in Sources */,
-				6FEDE48716E2A29300459B5C /* IOCSearchController.m in Sources */,
+				2ECFBABD16EA8B050092EE67 /* IOCNotificationsController.m in Sources */,
+				2ECFBABC16EA8AF50092EE67 /* IOCBlobsController.m in Sources */,
+				2ECFBABA16EA8AD80092EE67 /* IOCSearchController.m in Sources */,
 				6FA00D6E16E2A7BB004194A8 /* IOCApiClient.m in Sources */,
 				6FA00D7516E2A7F0004194A8 /* GHBasicClient.m in Sources */,
 				6FA00D7816E2A7F0004194A8 /* GHOAuthClient.m in Sources */,
-				2ECFBABA16EA8AD80092EE67 /* IOCSearchController.m in Sources */,
 				2ECFBABB16EA8AEB0092EE67 /* IOCCodeController.m in Sources */,
-				2ECFBABC16EA8AF50092EE67 /* IOCBlobsController.m in Sources */,
-				2ECFBABD16EA8B050092EE67 /* IOCNotificationsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3653,8 +3644,9 @@
 			baseConfigurationReference = 0356A753731743C6B44D0C91 /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = "$(inherited)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Dennis Reimann (QEMGSR7FEH)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -3669,7 +3661,7 @@
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = iOctocat;
-				PROVISIONING_PROFILE = "1383FB77-507F-4F7E-9908-A0DA97CDC1A3";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -3679,6 +3671,7 @@
 			baseConfigurationReference = 0356A753731743C6B44D0C91 /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOctocat.app/iOctocat";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -3710,6 +3703,7 @@
 			baseConfigurationReference = 0356A753731743C6B44D0C91 /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOctocat.app/iOctocat";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -3763,8 +3757,9 @@
 			baseConfigurationReference = 0356A753731743C6B44D0C91 /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = "$(inherited)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Dennis Reimann";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iOctocat_Prefix.pch;
@@ -3776,7 +3771,7 @@
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = iOctocat;
-				PROVISIONING_PROFILE = "5F4766E7-2FA2-4FB3-919E-47CA43706314";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -1,17 +1,22 @@
 
-PODS:
-- AFNetworking (1.1.0)
-- AFOAuth2Client (0.1.0):
-  - AFNetworking (~> 1.0)
-- Base64 (1.0.1)
-- ECSlidingViewController (0.9.2)
-- Expecta (0.2.1)
-- HockeySDK (2.5.5)
-- SVProgressHUD (0.9)
-- SVPullToRefresh (0.4.1)
-- YRDropdownView (0.1.0)
+EXTERNAL SOURCES: 
+  YRDropdownView: 
+    :git: https://github.com/iOctocat/YRDropdownView.git
+  ECSlidingViewController: 
+    :git: https://github.com/iOctocat/ECSlidingViewController.git
 
-DEPENDENCIES:
+SPEC CHECKSUMS: 
+  Base64: eaac9f2088ba659c5db1db960576eb0f2969ebaf
+  YRDropdownView: 66f0f2d5e69d2024e45626efe1b3dae79e97fbb9
+  SVPullToRefresh: 61a0e4bd12bd6f8e3465909810b0fbeb1a28d5f2
+  ECSlidingViewController: f95954f73f256db09ac87d2837a7a286bd25dbf0
+  Expecta: d46fb1bd78c90a83da0158b9b1e108de106e369f
+  AFOAuth2Client: 2d1a21039fcc086254b0564428677fbbee0a4972
+  AFNetworking: 761a418233d280c1e0580bcb76ff9cb4c3073d17
+  SVProgressHUD: 98935fbafaf0031df4a9cafca3c66eaf3da06967
+  HockeySDK: e59ba4e0060d13a9acfb5da8f9381298fbc53e0b
+
+DEPENDENCIES: 
 - AFNetworking (= 1.1)
 - AFOAuth2Client (= 0.1)
 - Base64
@@ -22,21 +27,16 @@ DEPENDENCIES:
 - SVPullToRefresh (= 0.4.1)
 - YRDropdownView (from `https://github.com/iOctocat/YRDropdownView.git')
 
-EXTERNAL SOURCES:
-  ECSlidingViewController:
-    :git: https://github.com/iOctocat/ECSlidingViewController.git
-  YRDropdownView:
-    :git: https://github.com/iOctocat/YRDropdownView.git
+COCOAPODS: 0.15.1
 
-SPEC CHECKSUMS:
-  AFNetworking: 761a418233d280c1e0580bcb76ff9cb4c3073d17
-  AFOAuth2Client: 2d1a21039fcc086254b0564428677fbbee0a4972
-  Base64: 85ba828a3e52c2855d0cd26ee6354bb8002b8c16
-  ECSlidingViewController: f95954f73f256db09ac87d2837a7a286bd25dbf0
-  Expecta: d46fb1bd78c90a83da0158b9b1e108de106e369f
-  HockeySDK: e59ba4e0060d13a9acfb5da8f9381298fbc53e0b
-  SVProgressHUD: 98935fbafaf0031df4a9cafca3c66eaf3da06967
-  SVPullToRefresh: 61a0e4bd12bd6f8e3465909810b0fbeb1a28d5f2
-  YRDropdownView: 66f0f2d5e69d2024e45626efe1b3dae79e97fbb9
-
-COCOAPODS: 0.16.1
+PODS: 
+- AFNetworking (1.1.0)
+- AFOAuth2Client (0.1.0): 
+  - AFNetworking (~> 1.0)
+- Base64 (1.0.1)
+- ECSlidingViewController (0.9.2)
+- Expecta (0.2.1)
+- HockeySDK (2.5.5)
+- SVProgressHUD (0.9)
+- SVPullToRefresh (0.4.1)
+- YRDropdownView (0.1.0)
